@@ -162,7 +162,7 @@ const Studenthome = () => {
 				</div>
                 <div className="login__field6">
                 <div><label htmlFor="" className="label2">Attendence</label></div>
-					<div><input type="text" className="login__input8"  name='attandance'   value={student.attandance}  /></div>
+					<div><input type="text" className="login__input8"  name='attandance'   value= {((student.attandance /200)*100)<75?`${((student.attandance /200)*100)}%   Must Pay Condonation`:`${((student.attandance /200)*100)}%`} /></div>
 				</div>
             </div>
             <div className='head5'>Internal Marks</div>

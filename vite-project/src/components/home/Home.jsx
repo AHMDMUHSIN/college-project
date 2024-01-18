@@ -236,7 +236,7 @@ const Home = () => {
         {/* /////////////// */}
      <div className='cardsmain'>
      <div className="container">
-  <p className="container-title">Here are the features<br/>we’re proud of</p>
+ 
 
   <div className="gradient-cards">
     <div className="card1">

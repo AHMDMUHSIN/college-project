@@ -64,16 +64,16 @@ const Registerdata=async(e)=>{
 			<form className="login3" >
 
                <div className="login__field">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input"  name='name' onChange={getData}  placeholder=" Name"/>
 				</div>
                 
 				<div className="login__field">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input"  name='user' onChange={getData}  placeholder="User name"/>
 				</div>
 				<div className="login__field">
-					<i className="login__icon fas fa-lock"></i>
+					
 					<input type="password" className="login__input" name='password' onChange={getData}   placeholder="Password" />
 				</div>
 				<div><button onClick={Registerdata} >Sign Up</button></div>

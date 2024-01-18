@@ -107,7 +107,7 @@ const Studentfulldetails = () => {
          </div>
          <div className='right-data2'>
             <div><label >Attendance</label></div>
-            <div>: {attentantace!==""?`${attentantace}%`:'Loading...'}</div>
+            <div>:  {((getStudent.attandance /200)*100)<75?`${((getStudent.attandance /200)*100)}% Must Pay Condonation`:`${((getStudent.attandance /200)*100)}%`}</div>
          
          </div>
 
