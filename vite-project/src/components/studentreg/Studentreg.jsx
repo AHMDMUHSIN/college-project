@@ -122,11 +122,11 @@ const Studentreg = () => {
 			<form className="login1" >
             <div className='login3sub'>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input4"  name='studentid'  onChange={Getdata}    placeholder=" Student ID"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input4"  name='name'   onChange={Getdata}  placeholder=" Full Name"/>
 				</div>
                
@@ -134,11 +134,11 @@ const Studentreg = () => {
             </div>
             <div className='login3sub'>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input4"  name='email' onChange={Getdata}    placeholder=" E-mail"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input4"  name='phone'  onChange={Getdata}   placeholder=" Phone"/>
 				</div>
             </div>
@@ -153,7 +153,7 @@ const Studentreg = () => {
 					<input type="date" className="login__input4"  name='dob'  onChange={Getdata}   placeholder="Date Of Birth"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
                     <select className='login__input4' name="course" id="cars"    onChange={Getdata}    >
                     <option value="volvo">Html</option>
                      <option value="saab">Css</option>
@@ -164,15 +164,15 @@ const Studentreg = () => {
             </div>
             <div className='login3sub2'>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='batch'   onChange={Getdata}  placeholder=" Batch"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='sem'  onChange={Getdata}    placeholder=" Sem"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='attandance'  onChange={Getdata}   placeholder="Attendence"/>
 				</div>
             </div>
@@ -181,30 +181,30 @@ const Studentreg = () => {
 			<div className='head5'>Internal Marks</div>
             <div className='login3sub2'>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='internalChe'  onChange={GetInternalmark}  placeholder=" Chemistry"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='internalPhy'   onChange={GetInternalmark}  placeholder=" Physics"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='internalMath'   onChange={GetInternalmark}  placeholder=" Maths"/>
 				</div>
             </div>
             <div className='head5'>Test Score</div>
             <div className='login3sub2'>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='testChe'   onChange={GetTestmark} placeholder=" Chemistry"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='testPhy'   onChange={GetTestmark}  placeholder=" Physics"/>
 				</div>
                 <div className="login__field4">
-					<i className="login__icon fas fa-user"></i>
+					
 					<input type="text" className="login__input5"  name='testMath' onChange={GetTestmark}   placeholder=" Maths"/>
 				</div>
             </div>
