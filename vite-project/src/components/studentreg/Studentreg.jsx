@@ -137,7 +137,7 @@ const Studentreg = () => {
 					
 					<input type="text" className="login__input4"  name='email' onChange={Getdata}    placeholder=" E-mail"/>
 				</div>
-                <div className="login__field4">
+              <div className="login__field4">
 					
 					<input type="text" className="login__input4"  name='phone'  onChange={Getdata}   placeholder=" Phone"/>
 				</div>
