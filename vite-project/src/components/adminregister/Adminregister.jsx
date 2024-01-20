@@ -79,7 +79,7 @@ const Registerdata=async(e)=>{
 				<div><button onClick={Registerdata} >Sign Up</button></div>
 				<ToastContainer 
 				
-				position="top-right" 
+				position="top-right"  
 				autoClose={2500}
 				hideProgressBar={false} 
 				newestOnTop={false} 
