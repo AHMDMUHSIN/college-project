@@ -43,7 +43,7 @@ const Home = () => {
         
         </div>
 
-       
+        {/* ////////////// */}
         <div className='cardsmain1'>
         <div className="cards2">
 
