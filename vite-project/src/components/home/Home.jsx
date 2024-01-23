@@ -397,10 +397,10 @@ const Home = () => {
       <div><span><i className="fa fa-envelope" aria-hidden="true"></i> info@example.com</span></div>
       <div>
         <div className="m16sub1h2">
-          {/* <div><i className="fa fa-facebook" aria-hidden="true"></i></div>
+          <div><i className="fa fa-facebook" aria-hidden="true"></i></div>
           <div><i className="fa fa-twitter" aria-hidden="true"></i></div>
           <div><i className="fa fa-linkedin" aria-hidden="true"></i></div>
-          <div><i className="fa fa-instagram" aria-hidden="true"></i></div> */}
+          <div><i className="fa fa-instagram" aria-hidden="true"></i></div>
       </div>
       </div>
     </div>
