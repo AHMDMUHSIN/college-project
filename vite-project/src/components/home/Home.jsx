@@ -405,12 +405,12 @@ const Home = () => {
       </div>
     </div>
     <div className="main-16-sub2">
-      {/* <div className="m16sub1h1">Services</div>
+      <div className="m16sub1h1">Services</div>
       <div className="m16s2"><i className="fa fa-angle-right " aria-hidden="true"></i> General Carpentry</div>
       <div className="m16s2"><i className="fa fa-angle-right" aria-hidden="true"></i> Furniture Remodeling</div>
       <div className="m16s2"><i className="fa fa-angle-right" aria-hidden="true"></i>  Wooden Floor</div>
       <div className="m16s2"><i className="fa fa-angle-right" aria-hidden="true"></i> Wooden Furniture</div>
-      <div className="m16s2"><i className="fa fa-angle-right" aria-hidden="true"></i>  Custom Carpentry</div> */}
+      <div className="m16s2"><i className="fa fa-angle-right" aria-hidden="true"></i>  Custom Carpentry</div>
     </div>
     
   </div>
