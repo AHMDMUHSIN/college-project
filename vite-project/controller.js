@@ -242,25 +242,7 @@ export async function EditStudentDetails(req, res) {
     }
 }
 
-// export async function studentLogin(req, res) {
-//     try {
-//      console.log(req.body);
-//      const { studentid, dob } = req.body;
-//      const usr = await student_schema.findOne({studentid })
-//      console.log(usr);
-//      if (usr === null) return res.status(404).send("Data Does'nt Exist");
-     
-//      if (dob !== usr.dob) return res.status(404).send("Incorrect Date Of Birth ");
-//      const token = sign({ studentid }, process.env.JWT_KEY, { expiresIn: "24h" })
-//      console.log(token);
-//      res.status(200).send({ msg: "successfullly login", token })
-//      res.end();
-     
-//     } catch (error) {
-//      console.log(error);
-     
-//     }
-//    }
+
 
 export async function StudentLogin(req, res) {
     try {
