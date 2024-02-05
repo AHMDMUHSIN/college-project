@@ -303,7 +303,7 @@ const Home = () => {
             </linearGradient>
             <radialGradient id="paint1_radial_1366_4557" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 60) rotate(96.8574) scale(122.674 149.921)">
               <stop stop-color="#FFEE24"></stop>
-              <stop offset="1"  stop-opacity="0.2"></stop>
+              <stop offset="1"  ></stop>
             </radialGradient>
           </defs>
         </svg>
