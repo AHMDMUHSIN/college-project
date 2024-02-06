@@ -320,7 +320,7 @@ const Home = () => {
           <path d="M44.9833 35.52L27.3433 43.92V52.53L35.1833 49.17V82H44.9833V35.52ZM71.37 35.52L53.73 43.92V52.53L61.57 49.17V82H71.37V35.52Z" fill="#87A1FF"></path>
           <defs>
             <linearGradient id="paint0_linear_1366_4582" x1="120.194" y1="119.827" x2="-13.1225" y2="17.1841" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#61A0FF" stop-opacity="0.7"></stop>
+              <stop stop-opacity="0.7"></stop>
               <stop offset="0.489583" stop-color="#61A0FF" stop-opacity="0"></stop>
               <stop offset="1" stop-color="#61A0FF" stop-opacity="0.7"></stop>
             </linearGradient>
