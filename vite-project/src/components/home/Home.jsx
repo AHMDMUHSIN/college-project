@@ -325,7 +325,7 @@ const Home = () => {
               <stop offset="1" stop-color="#61A0FF" stop-opacity="0.7"></stop>
             </linearGradient>
             <radialGradient id="paint1_radial_1366_4582" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 60) rotate(96.8574) scale(122.674 149.921)">
-              <stop stop-color="#87A1FF"></stop>
+              <stop ></stop>
               <stop offset="1"  ></stop>
             </radialGradient>
           </defs>
